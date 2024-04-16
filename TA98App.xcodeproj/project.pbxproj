@@ -203,9 +203,9 @@
 		85A9801D2BCEDF60009CE9F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */,
 				85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */,
 				85A9801E2BCEE324009CE9F8 /* View1.swift */,
-				85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */,
 				85A980202BCEE33B009CE9F8 /* View2.swift */,
 				85A980222BCEE346009CE9F8 /* View3.swift */,
 			);
