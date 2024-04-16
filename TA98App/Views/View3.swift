@@ -9,7 +9,7 @@ import SwiftUI
 
 struct View3: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Here is where past events are going to be located at")
     }
 }
 

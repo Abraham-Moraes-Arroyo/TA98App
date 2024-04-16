@@ -12,17 +12,17 @@ struct ContentView: View {
         TabView{
             View1()
                 .tabItem {
-                    Image(systemName: "leaf.fill")
+                    Image(systemName: "house.fill")
                     Text("Model")
                 }
             View2()
                 .tabItem {
-                    Image(systemName: "snowflake")
+                    Image(systemName: "note.text")
                     Text("RSVP")
                 }
             View3()
                 .tabItem {
-                    Image(systemName: "sun.max")
+                    Image(systemName: "arrow.uturn.backward.circle.fill")
                     Text("Past Events")
                 }
         }
