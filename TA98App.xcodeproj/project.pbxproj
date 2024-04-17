@@ -46,6 +46,7 @@
 		85A980212BCEE33B009CE9F8 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A980202BCEE33B009CE9F8 /* View2.swift */; };
 		85A980232BCEE346009CE9F8 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A980222BCEE346009CE9F8 /* View3.swift */; };
 		85A980252BCEE9B7009CE9F8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */; };
+		85A980282BD02F56009CE9F8 /* Room.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 85A980272BD02F56009CE9F8 /* Room.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		85A980202BCEE33B009CE9F8 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		85A980222BCEE346009CE9F8 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		85A980272BD02F56009CE9F8 /* Room.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Room.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */,
+				85A980262BD02F3C009CE9F8 /* 3DFiles */,
 				85A9801D2BCEDF60009CE9F8 /* Views */,
 				85A97FBD2BCED8EA009CE9F8 /* Assets.xcassets */,
 				85A97FBF2BCED8EA009CE9F8 /* Preview Content */,
@@ -210,6 +213,14 @@
 				85A980222BCEE346009CE9F8 /* View3.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		85A980262BD02F3C009CE9F8 /* 3DFiles */ = {
+			isa = PBXGroup;
+			children = (
+				85A980272BD02F56009CE9F8 /* Room.usdz */,
+			);
+			path = 3DFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +363,7 @@
 				85A97FBE2BCED8EA009CE9F8 /* Assets.xcassets in Resources */,
 				85A980252BCEE9B7009CE9F8 /* Launch Screen.storyboard in Resources */,
 				85A97FE52BCEDAE0009CE9F8 /* GoogleService-Info.plist in Resources */,
+				85A980282BD02F56009CE9F8 /* Room.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
