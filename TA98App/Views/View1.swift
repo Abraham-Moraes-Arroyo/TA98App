@@ -19,17 +19,24 @@ struct View1: View {
     }
 
     var body: some View {
-        
-        
-        ZStack {
-            Text("This is where the model of the office is going to be taking place in.")
+        ScrollView{
             
-            SceneView (
-            scene: scene,
-            pointOfView: cameraNode,
-            options: []
-            )
-            .scaledToFit()
+            ZStack {
+                Text("This is where the model of the office is going to be taking place in.")
+                
+                SceneView (
+                    scene: scene,
+                    pointOfView: cameraNode,
+                    options: [.allowsCameraControl]
+                )
+                .scaledToFit()
+            }
         }
     }
 }
+
+
+//Not sure what will hapen if I decide to make it work like that.
+//#Preview {
+//    View1()
+//}
