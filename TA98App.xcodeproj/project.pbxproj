@@ -47,6 +47,7 @@
 		85A980232BCEE346009CE9F8 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A980222BCEE346009CE9F8 /* View3.swift */; };
 		85A980252BCEE9B7009CE9F8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */; };
 		85A980282BD02F56009CE9F8 /* Room.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 85A980272BD02F56009CE9F8 /* Room.usdz */; };
+		85A9802A2BD035EC009CE9F8 /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85A980292BD035EC009CE9F8 /* SceneKit Scene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		85A980222BCEE346009CE9F8 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		85A980272BD02F56009CE9F8 /* Room.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Room.usdz; sourceTree = "<group>"; };
+		85A980292BD035EC009CE9F8 /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SceneKit Scene.scn"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				85A980242BCEE9B7009CE9F8 /* Launch Screen.storyboard */,
 				85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */,
 				85A9801E2BCEE324009CE9F8 /* View1.swift */,
+				85A980292BD035EC009CE9F8 /* SceneKit Scene.scn */,
 				85A980202BCEE33B009CE9F8 /* View2.swift */,
 				85A980222BCEE346009CE9F8 /* View3.swift */,
 			);
@@ -361,6 +364,7 @@
 			files = (
 				85A97FC12BCED8EA009CE9F8 /* Preview Assets.xcassets in Resources */,
 				85A97FBE2BCED8EA009CE9F8 /* Assets.xcassets in Resources */,
+				85A9802A2BD035EC009CE9F8 /* SceneKit Scene.scn in Resources */,
 				85A980252BCEE9B7009CE9F8 /* Launch Screen.storyboard in Resources */,
 				85A97FE52BCEDAE0009CE9F8 /* GoogleService-Info.plist in Resources */,
 				85A980282BD02F56009CE9F8 /* Room.usdz in Resources */,

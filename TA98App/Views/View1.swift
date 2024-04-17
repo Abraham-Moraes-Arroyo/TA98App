@@ -6,13 +6,30 @@
 //
 
 import SwiftUI
+import RealityKit
+import SceneKit
+
 
 struct View1: View {
-    var body: some View {
-        Text("This is where the model of the office is going to be taking place in.")
+    
+    var scene = SCNScene(named: "SceneKit Scene.scn")
+    
+    var cameraNode: SCNNode? { // this is how you get the scene kit be integreated to the swiftUI code
+        scene?.rootNode.childNode(withName: "camera", recursively: false)
     }
-}
 
-#Preview {
-    View1()
+    var body: some View {
+        
+        
+        ZStack {
+            Text("This is where the model of the office is going to be taking place in.")
+            
+            SceneView (
+            scene: scene,
+            pointOfView: cameraNode,
+            options: []
+            )
+            .scaledToFit()
+        }
+    }
 }
