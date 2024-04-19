@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8595B0822BD2D6C300820790 /* carouselExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B0812BD2D6C300820790 /* carouselExample.swift */; };
 		85A97FBA2BCED8E9009CE9F8 /* TA98AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */; };
 		85A97FBC2BCED8E9009CE9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */; };
 		85A97FBE2BCED8EA009CE9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A97FBD2BCED8EA009CE9F8 /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8595B0812BD2D6C300820790 /* carouselExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselExample.swift; sourceTree = "<group>"; };
 		85A97FB62BCED8E9009CE9F8 /* TA98App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TA98App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TA98AppApp.swift; sourceTree = "<group>"; };
 		85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				85A9801E2BCEE324009CE9F8 /* View1.swift */,
 				85A980202BCEE33B009CE9F8 /* View2.swift */,
 				85A980222BCEE346009CE9F8 /* View3.swift */,
+				8595B0812BD2D6C300820790 /* carouselExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8595B0822BD2D6C300820790 /* carouselExample.swift in Sources */,
 				85A97FBC2BCED8E9009CE9F8 /* ContentView.swift in Sources */,
 				85A980232BCEE346009CE9F8 /* View3.swift in Sources */,
 				85A9801F2BCEE324009CE9F8 /* View1.swift in Sources */,

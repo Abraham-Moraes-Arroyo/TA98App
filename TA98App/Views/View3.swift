@@ -9,7 +9,11 @@ import SwiftUI
 
 struct View3: View {
     var body: some View {
-        Text("Here is where past events are going to be located at")
+        ScrollView{
+            VStack{
+                Text("Previous Events")
+            }
+        }
     }
 }
 

@@ -37,9 +37,9 @@ struct View1: View {
 
 
 //Not sure what will hapen if I decide to make it work like that.
-//#Preview {
-//    View1()
-//}
+#Preview {
+    View1()
+}
 
 //Below is the link that I used
 //https://www.youtube.com/watch?v=NE_PQAyavgo
