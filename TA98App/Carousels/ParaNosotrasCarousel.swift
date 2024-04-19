@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ParaNosotrasCarousel: View {
     @State private var currentIndexPN: Int = 0
-    @GestureState private var dragOffset: CGFloat = 0
+    @GestureState private var dragOffsetPN: CGFloat = 0
     
     private let imagesPN: [String] = ["pnimage1", "pnimage2", "pnimage3"]
     var body: some View {
@@ -22,7 +22,7 @@ struct ParaNosotrasCarousel: View {
                                 .cornerRadius(25)
                                 .opacity(currentIndexPN == index ? 1.0: 0.5)
                                 .scaleEffect(currentIndexPN == index ? 1.2  : 0.8)
-                                .offset(x: CGFloat(index - currentIndexPN) * 300 + dragOffset, y: 0)
+                                .offset(x: CGFloat(index - currentIndexPN) * 300 + dragOffsetPN, y: 0)
                         }
                     }
                     .gesture(

@@ -38,8 +38,7 @@ struct carouselExample: View {
                                 }
                             } else if value.translation.width < -threshold {
                                 withAnimation {
-                                    currentIndex = min(images.count - 1,
-                                                       currentIndex + 1)
+                                    currentIndex = min(images.count - 1, currentIndex + 1)
                                 }
                             }
                         })

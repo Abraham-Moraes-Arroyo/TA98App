@@ -20,7 +20,7 @@ struct ContentView: View {
                     Image(systemName: "note.text")
                     Text("RSVP")
                 }
-            View3()
+            dropdown()
                 .tabItem {
                     Image(systemName: "arrow.uturn.backward.circle.fill")
                     Text("Past Events")
