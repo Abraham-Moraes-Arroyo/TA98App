@@ -11,7 +11,7 @@ struct carouselExample: View {
     @State private var currentIndex: Int = 0
     @GestureState private var dragOffset: CGFloat = 0
     
-    private let images: [String] = ["images1", "images2"]
+    private let images: [String] = ["images1", "images2", "images3", "images4"]
     
     var body: some View {
         
@@ -45,7 +45,8 @@ struct carouselExample: View {
                         })
                     )
                 }
-                .navigationTitle("Image Carousel")
+                .navigationTitle("GS Launch Party")
+                
             }
         } else {
             // Fallback on earlier versions
