@@ -36,7 +36,7 @@ struct dropdown: View {
                                         .frame(width:60, height: 60)
 
                                     NavigationLink(
-                                        destination: carouselExample(),
+                                        destination: ParaNosotrasCarousel(),
                                         
                                         label: {
                                             Text("Para Nosotras ")
