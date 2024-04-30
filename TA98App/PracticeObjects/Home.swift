@@ -25,6 +25,7 @@ struct Home: View {
                 .frame(height: 350)
                 .padding(.top,-50)
                 .padding(.bottom, -15)
+                .zIndex(-10)
             
             CustomSeeker()
             
@@ -194,19 +195,33 @@ struct Home: View {
         }
         .frame(height: 20)
         .onChange(of: offset, perform: {newvalue in
-                rotateObject()
+            rotateObject(animate: offset == .zero)
         })
         .animation(.easeInOut(duration: 0.4), value: offset == .zero)
         
     }
     
     // Mark Rotating 3D
-    func rotateObject(){
+    func rotateObject(animate: Bool = false){
         // Thed rotation is more or liek same as 3D Rotation in swift UI
         // Y wuill be used for the horizonal rotation and viceversa for x.
         
+        if animate{
+            SCNTransaction.begin()
+            SCNTransaction.animationDuration = 0.4
+        }
+        
         let newAngle = Float((offset * .pi) / 180 )
-        scene?.rootNode.eulerAngles.y = newAngle
+        // MARK: Now we rotate the new Child Node
+        if isVerticallook{
+            scene?.rootNode.childNode(withName: "Root", recursively: true )?.eulerAngles.y = newAngle
+        } else {
+            scene?.rootNode.childNode(withName: "Root", recursively: true )?.eulerAngles.x = newAngle
+        }
+        if animate {
+            SCNTransaction.commit()
+        }
+        
     }
     
     
