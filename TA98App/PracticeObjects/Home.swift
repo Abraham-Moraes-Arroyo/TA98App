@@ -61,7 +61,7 @@ struct Home: View {
             .padding(.top, 30)
             .frame(maxWidth: .infinity, alignment: .leading)
             
-          // MARK: Quantity Picker
+            // MARK: Quantity Picker
             VStack(alignment: .leading, spacing: 12){
                 Text("Choose Quantity")
                     .font(.title3.bold())
@@ -93,53 +93,54 @@ struct Home: View {
                                 }
                         }
                     }
+                    
                 }
             }
-            .padding(.top, 20)
-            
             //MARK: Check out button
-            Button {
-                
-            } label: {
-                VStack(spacing: 12){
-                    Image(systemName: "bag")
-                        .resizable()
-                        .renderingMode(.template)
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 45, height: 45)
+            HStack{
+                Button {
                     
-                    Text("$20")
+                } label: {
+                    VStack(spacing: 12){
+                        Image(systemName: "bag")
+                            .resizable()
+                            .renderingMode(.template)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 45, height: 45)
+                        
+                        Text("$20")
+                            .fontWeight(.semibold)
+                            .padding(.top, 15)
+                    }
+                    .foregroundColor(.black)
+                    .padding(18)
+                    .background{
+                        RoundedRectangle(cornerRadius: 20, style: .continuous)
+                            .fill(.white)
+                    }
+                }
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("A small description will be here about the product. ")
+                        .font(.callout)
                         .fontWeight(.semibold)
-                        .padding(.top, 15)
-                }
-                .foregroundColor(.black)
-                .padding(18)
-                .background{
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .fill(.white)
-                }
-            }
-            VStack(alignment: .leading, spacing: 10) {
-                Text("A small description will be here about the product. ")
-                    .font(.callout)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.gray)
-                
-                Button{
+                        .foregroundColor(.gray)
                     
-                }label: {
-                    Text("More Details")
-                        .fontWeight(.semibold)
-                        .foregroundColor(.white)
+                    Button{
+                        
+                    }label: {
+                        Text("More Details")
+                            .fontWeight(.semibold)
+                            .foregroundColor(.white)
+                    }
+                    .padding(.top, 10 )
+                    
                 }
-                .padding(.top, 10 )
-                
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 20 )
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.leading, 20 )
+            
+            .padding(.top, 30)
         }
-        
-        .padding(.top, 30)
     }
     
     
@@ -178,7 +179,7 @@ struct Home: View {
                         RoundedRectangle(cornerRadius: 10, style: .continuous)
                             .fill(.white)
                     }
-                    .offset(y: -12)
+                    .offset(y: -12) // 6:24
                     .offset(x: offset)
                     .gesture(
                         DragGesture()
@@ -192,10 +193,21 @@ struct Home: View {
                 }
         }
         .frame(height: 20)
+        .onChange(of: offset, perform: {newvalue in
+                rotateObject()
+        })
         .animation(.easeInOut(duration: 0.4), value: offset == .zero)
         
     }
     
+    // Mark Rotating 3D
+    func rotateObject(){
+        // Thed rotation is more or liek same as 3D Rotation in swift UI
+        // Y wuill be used for the horizonal rotation and viceversa for x.
+        
+        let newAngle = Float((offset * .pi) / 180 )
+        scene?.rootNode.eulerAngles.y = newAngle
+    }
     
     
     // MARK: Header View
@@ -237,6 +249,8 @@ struct Home: View {
     
 }
 
-#Preview {
-    Home()
+struct Home_Previews: PreviewProvider {
+    static var previews: some View {
+        Home()
+    }
 }
