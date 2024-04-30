@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8566561A2BE16113001787E9 /* Book.scn in Resources */ = {isa = PBXBuildFile; fileRef = 856656192BE16113001787E9 /* Book.scn */; };
 		8595B0822BD2D6C300820790 /* carouselExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B0812BD2D6C300820790 /* carouselExample.swift */; };
 		8595B0842BD2E27F00820790 /* dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B0832BD2E27F00820790 /* dropdown.swift */; };
 		8595B0862BD3158E00820790 /* ParaNosotrasCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B0852BD3158E00820790 /* ParaNosotrasCarousel.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		856656192BE16113001787E9 /* Book.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Book.scn; sourceTree = "<group>"; };
 		8595B0812BD2D6C300820790 /* carouselExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselExample.swift; sourceTree = "<group>"; };
 		8595B0832BD2E27F00820790 /* dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropdown.swift; sourceTree = "<group>"; };
 		8595B0852BD3158E00820790 /* ParaNosotrasCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParaNosotrasCarousel.swift; sourceTree = "<group>"; };
@@ -145,6 +147,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		856656182BE15BBF001787E9 /* PracticeObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PracticeObjects;
+			sourceTree = "<group>";
+		};
 		8595B0872BD3159E00820790 /* Carousels */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +166,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				856656192BE16113001787E9 /* Book.scn */,
 				85A97FE42BCEDAE0009CE9F8 /* GoogleService-Info.plist */,
 				85A97FB82BCED8E9009CE9F8 /* TA98App */,
 				85A97FC92BCED8EA009CE9F8 /* TA98AppTests */,
@@ -180,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */,
+				856656182BE15BBF001787E9 /* PracticeObjects */,
 				85A980262BD02F3C009CE9F8 /* 3DFiles */,
 				85A9801D2BCEDF60009CE9F8 /* Views */,
 				8595B0872BD3159E00820790 /* Carousels */,
@@ -379,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8566561A2BE16113001787E9 /* Book.scn in Resources */,
 				85A97FC12BCED8EA009CE9F8 /* Preview Assets.xcassets in Resources */,
 				85A97FBE2BCED8EA009CE9F8 /* Assets.xcassets in Resources */,
 				85A9802A2BD035EC009CE9F8 /* SceneKit Scene.scn in Resources */,
