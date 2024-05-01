@@ -50,12 +50,12 @@ struct Home: View {
                     .fontWeight(.semibold)
                     .foregroundColor(.gray)
                 
-                Label {
-                    Text("5.0")
-                } icon: {
-                    Image(systemName: "Star.fill")
-                }
-                .foregroundColor(Color("Gold"))
+//                Label {
+//                    Text("5.0")
+//                } icon: {
+//                    Image(systemName: "Star.fill")
+//                }
+//                .foregroundColor(Color("Gold"))
                 
                 
             }
@@ -63,40 +63,40 @@ struct Home: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             
             // MARK: Quantity Picker
-            VStack(alignment: .leading, spacing: 12){
-                Text("Choose Quantity")
-                    .font(.title3.bold())
-                ScrollView(.horizontal, showsIndicators: false){
-                    HStack(spacing: 10){
-                        let quantitys = ["1","2","3"]
-                        ForEach(quantitys, id: \.self){ quantity in
-                            Text(quantity)
-                                .fontWeight(.semibold)
-                                .foregroundColor(currentSelection == quantity ? .black : .white)
-                                .padding(.horizontal,20)
-                                .padding(.vertical,15)
-                                .background{
-                                    ZStack{
-                                        RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                            .fill(.white.opacity(0.2))
-                                        
-                                        if currentSelection == quantity {
-                                            RoundedRectangle(cornerRadius: 10, style: .continuous)
-                                                .fill(.white)
-                                                .matchedGeometryEffect(id: "TAB", in: animation)
-                                        }
-                                    }
-                                }
-                                .onTapGesture {
-                                    withAnimation(.easeInOut){
-                                        currentSelection = quantity
-                                    }
-                                }
-                        }
-                    }
-                    
-                }
-            }
+//            VStack(alignment: .leading, spacing: 12){
+//                Text("Choose Quantity")
+//                    .font(.title3.bold())
+//                ScrollView(.horizontal, showsIndicators: false){
+//                    HStack(spacing: 10){
+//                        let quantitys = ["1","2","3"]
+//                        ForEach(quantitys, id: \.self){ quantity in
+//                            Text(quantity)
+//                                .fontWeight(.semibold)
+//                                .foregroundColor(currentSelection == quantity ? .black : .white)
+//                                .padding(.horizontal,20)
+//                                .padding(.vertical,15)
+//                                .background{
+//                                    ZStack{
+//                                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+//                                            .fill(.white.opacity(0.2))
+//                                        
+//                                        if currentSelection == quantity {
+//                                            RoundedRectangle(cornerRadius: 10, style: .continuous)
+//                                                .fill(.white)
+//                                                .matchedGeometryEffect(id: "TAB", in: animation)
+//                                        }
+//                                    }
+//                                }
+//                                .onTapGesture {
+//                                    withAnimation(.easeInOut){
+//                                        currentSelection = quantity
+//                                    }
+//                                }
+//                        }
+//                    }
+//                    
+//                }
+//            }
             //MARK: Check out button
             HStack{
                 Button {
