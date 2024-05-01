@@ -25,9 +25,15 @@ struct Number1: View {
                             .padding()
                         Divider()
                         
-                        Text("Below are some items that we have in our office ")
-                            .font(.title2)
+                        // MARK: Here is where you are going to have the image of the ShowPipes Showcase. Figure out what px do you need the image.
+                        Rectangle()
+                            .fill(.red)
+                            .frame(width: 400, height: 200)
+                        
+                        Text("Featured Pieces")
+                            .font(.title)
                             .padding()
+                            .offset(x:-80)
                         
                         
                     }// end of divider with TA98 Logo
