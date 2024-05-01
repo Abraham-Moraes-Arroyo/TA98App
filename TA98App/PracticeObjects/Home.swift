@@ -228,19 +228,19 @@ struct Home: View {
     // MARK: Header View
     @ViewBuilder //folded at 4:48
     func HeaderView()->some View{
-        HStack{
-            Button{
-                
-            } label: {
-                Image(systemName: "arrow.left")
-                    .font(.system(size:16, weight: .heavy))
-                    .foregroundColor(.white)
-                    .frame(width: 42,height: 42)
-                    .background{
-                        RoundedRectangle(cornerRadius: 15, style: .continuous)
-                            .fill(.white.opacity(0.2))
-                    }
-            }
+        HStack{ // I think this is the button that is giving me issues
+//            Button{
+//                
+//            } label: {
+//                Image(systemName: "arrow.left")
+//                    .font(.system(size:16, weight: .heavy))
+//                    .foregroundColor(.white)
+//                    .frame(width: 42,height: 42)
+//                    .background{
+//                        RoundedRectangle(cornerRadius: 15, style: .continuous)
+//                            .fill(.white.opacity(0.2))
+//                    }
+//            }
             
             Spacer()
             
