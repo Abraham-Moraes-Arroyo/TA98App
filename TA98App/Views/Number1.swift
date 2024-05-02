@@ -36,39 +36,33 @@ struct Number1: View {
                             .padding()
                             .offset(x:-80)
                         
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("sentrockBook")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("The Alphabet Book")
+                                NavigationLink(
+                                    destination: Home(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
                         
                     }// end of divider with TA98 Logo
                     
-                    VStack{
-                        HStack{
-                            HStack{
-                                CustomSceneView(scene: $scene)
-                                    .frame(height: 70)
-                                    .padding(.top,120)
-                                    .padding(.bottom, -15)
-                                    .zIndex(-10)
-                                Text("The Alphabet Book")
-                                    .offset(x:-110)
-                                
-                            }
-                            
-                        }
-                        VStack{
-                            
-                            
-                            NavigationLink(
-                                destination: Home(),
-                                
-                                label: {
-                                    Image(systemName: "info.circle.fill")
-                                        .resizable()
-                                        .frame(width:30, height: 30)
-                                })
-                            
-                        }
-                        .offset(x:100,y:-40)
-                    }// end of the 3D object with it acting as a button that people can read more about.
-                    
+                   
                 }
                 
             }
