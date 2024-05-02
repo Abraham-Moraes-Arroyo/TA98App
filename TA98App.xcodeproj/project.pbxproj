@@ -15,6 +15,7 @@
 		8595B0842BD2E27F00820790 /* dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B0832BD2E27F00820790 /* dropdown.swift */; };
 		8595B0862BD3158E00820790 /* ParaNosotrasCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595B0852BD3158E00820790 /* ParaNosotrasCarousel.swift */; };
 		85A16DEC2BE426DA009196A2 /* OnlineArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16DEB2BE426DA009196A2 /* OnlineArt.swift */; };
+		85A16DEF2BE42DE5009196A2 /* GallaryViewProjecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16DEE2BE42DE5009196A2 /* GallaryViewProjecting.swift */; };
 		85A97FBA2BCED8E9009CE9F8 /* TA98AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */; };
 		85A97FBC2BCED8E9009CE9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */; };
 		85A97FBE2BCED8EA009CE9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A97FBD2BCED8EA009CE9F8 /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 		8595B0832BD2E27F00820790 /* dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropdown.swift; sourceTree = "<group>"; };
 		8595B0852BD3158E00820790 /* ParaNosotrasCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParaNosotrasCarousel.swift; sourceTree = "<group>"; };
 		85A16DEB2BE426DA009196A2 /* OnlineArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineArt.swift; sourceTree = "<group>"; };
+		85A16DEE2BE42DE5009196A2 /* GallaryViewProjecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryViewProjecting.swift; sourceTree = "<group>"; };
 		85A97FB62BCED8E9009CE9F8 /* TA98App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TA98App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TA98AppApp.swift; sourceTree = "<group>"; };
 		85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				85A16DEB2BE426DA009196A2 /* OnlineArt.swift */,
+				85A16DEE2BE42DE5009196A2 /* GallaryViewProjecting.swift */,
 			);
 			path = "Online Gallery ";
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8595B0862BD3158E00820790 /* ParaNosotrasCarousel.swift in Sources */,
+				85A16DEF2BE42DE5009196A2 /* GallaryViewProjecting.swift in Sources */,
 				8595B0842BD2E27F00820790 /* dropdown.swift in Sources */,
 				8566561E2BE166C7001787E9 /* Home.swift in Sources */,
 				8595B0822BD2D6C300820790 /* carouselExample.swift in Sources */,

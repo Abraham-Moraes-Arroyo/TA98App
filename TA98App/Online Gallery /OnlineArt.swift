@@ -6,13 +6,18 @@
 //
 
 import SwiftUI
+import WebKit
 
-struct OnlineArt: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct OnlineArt: UIViewRepresentable {
+    
+    var url: URL
+    
+    func makeUIView(context: Context) -> WKWebView {
+        return WKWebView()
     }
-}
-
-#Preview {
-    OnlineArt()
+    
+    func updateUIView(_ onlineart: WKWebView, context: Context) {
+        let request = URLRequest(url: url)
+        onlineart.load(request)
+    }
 }
