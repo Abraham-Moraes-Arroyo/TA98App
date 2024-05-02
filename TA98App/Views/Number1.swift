@@ -26,8 +26,9 @@ struct Number1: View {
                         Divider()
                         
                         // MARK: Here is where you are going to have the image of the ShowPipes Showcase. Figure out what px do you need the image.
-                        Rectangle()
-                            .fill(.red)
+                        Image("chiscrapers")
+//                            .fill(.red)
+                            .resizable()
                             .frame(width: 400, height: 200)
                         
                         Text("Featured Pieces")
