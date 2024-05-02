@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct View2: View {
-    
+    @State private var showWebView = false
+
     @State private var currentIndex = 0
     let images : [String] = ["BlackTanTA98", "WhiteBlueTA98", "BlackLV", "WhiteLV", "BrownLV"]
     var body: some View {
@@ -87,6 +88,20 @@ struct View2: View {
                             RoundedRectangle(cornerRadius: 16)
                                 .stroke(.blue, lineWidth: 4)
                         )
+                }
+                Image("VRScreen2")
+                    .resizable()
+                    .scaledToFit()
+                Text("Check Out Our Virtual Gallery")
+                    .font(.title)
+//                    .padding()
+                Button {
+                    showWebView.toggle()
+                } label: {
+                    Text("Tap here to see more ")
+                }
+                .sheet(isPresented: $showWebView){
+                    OnlineArt(url: URL(string: "https://visit.virtualartgallery.com/draft4david")!)
                 }
                 Text("")
                 Text("")
