@@ -99,6 +99,12 @@ struct View2: View {
                 Text("")
                 Text("")
                 Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Text("")
 
 
             }.padding()
