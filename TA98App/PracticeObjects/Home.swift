@@ -99,41 +99,14 @@ struct Home: View {
 //            }
             //MARK: Check out button
             HStack{
-                Button {
-                    
-                } label: {
-                    VStack(spacing: 12){
-                        Image(systemName: "bag")
-                            .resizable()
-                            .renderingMode(.template)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 45, height: 45)
-                        
-                        Text("$20")
-                            .fontWeight(.semibold)
-                            .padding(.top, 15)
-                    }
-                    .foregroundColor(.black)
-                    .padding(18)
-                    .background{
-                        RoundedRectangle(cornerRadius: 20, style: .continuous)
-                            .fill(.white)
-                    }
-                }
+                
                 VStack(alignment: .leading, spacing: 10) {
                     Text("A small description will be here about the product. ")
                         .font(.callout)
                         .fontWeight(.semibold)
                         .foregroundColor(.gray)
                     
-                    Button{
-                        
-                    }label: {
-                        Text("More Details")
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
-                    }
-                    .padding(.top, 10 )
+                  
                     
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
