@@ -59,6 +59,29 @@ struct Number1: View {
                                 )
                         }
                         
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck1")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home2(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
                         
                     }// end of divider with TA98 Logo
                     
