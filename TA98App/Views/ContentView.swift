@@ -25,6 +25,12 @@ struct ContentView: View {
                     Image(systemName: "arrow.uturn.backward.circle.fill")
                     Text("Past Events")
                 }
+            // here is where you are going to have the art gallary at:
+            FourthScreen()
+                .tabItem {
+                    Image(systemName: "photo")
+                    Text("Virtual Gallery")
+                }
         }
     }
 }
