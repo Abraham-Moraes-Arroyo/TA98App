@@ -17,8 +17,8 @@ struct ContentView: View {
                 }
             View2()
                 .tabItem {
-                    Image(systemName: "note.text")
-                    Text("RSVP")
+                    Image(systemName: "hanger")
+                    Text("Merchandise")
                 }
             dropdown()
                 .tabItem {
