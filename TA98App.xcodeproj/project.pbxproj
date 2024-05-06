@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		851B7D462BE95BD600493B92 /* PinkPaint.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D452BE95BD600493B92 /* PinkPaint.scn */; };
 		851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D472BE99D3B00493B92 /* DarkBlue.scn */; };
+		851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D492BE9A22300493B92 /* LimeGreen.scn */; };
+		851B7D4C2BE9A27200493B92 /* Home4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B7D4B2BE9A27200493B92 /* Home4.swift */; };
 		8566561A2BE16113001787E9 /* Book.scn in Resources */ = {isa = PBXBuildFile; fileRef = 856656192BE16113001787E9 /* Book.scn */; };
 		8566561C2BE1624C001787E9 /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566561B2BE1624C001787E9 /* CustomSceneView.swift */; };
 		8566561E2BE166C7001787E9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566561D2BE166C7001787E9 /* Home.swift */; };
@@ -87,6 +89,8 @@
 /* Begin PBXFileReference section */
 		851B7D452BE95BD600493B92 /* PinkPaint.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PinkPaint.scn; sourceTree = "<group>"; };
 		851B7D472BE99D3B00493B92 /* DarkBlue.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DarkBlue.scn; sourceTree = "<group>"; };
+		851B7D492BE9A22300493B92 /* LimeGreen.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LimeGreen.scn; sourceTree = "<group>"; };
+		851B7D4B2BE9A27200493B92 /* Home4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home4.swift; sourceTree = "<group>"; };
 		856656192BE16113001787E9 /* Book.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Book.scn; sourceTree = "<group>"; };
 		8566561B2BE1624C001787E9 /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
 		8566561D2BE166C7001787E9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 				8566561D2BE166C7001787E9 /* Home.swift */,
 				85A16DF22BE83243009196A2 /* Home2.swift */,
 				85A16DF82BE84389009196A2 /* Home3.swift */,
+				851B7D4B2BE9A27200493B92 /* Home4.swift */,
 			);
 			path = PracticeObjects;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				851B7D492BE9A22300493B92 /* LimeGreen.scn */,
 				851B7D472BE99D3B00493B92 /* DarkBlue.scn */,
 				851B7D452BE95BD600493B92 /* PinkPaint.scn */,
 				85A16DFA2BE94A85009196A2 /* RedPaintFlat.scn */,
@@ -437,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */,
 				851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */,
 				851B7D462BE95BD600493B92 /* PinkPaint.scn in Resources */,
 				85A16DFB2BE94A85009196A2 /* RedPaintFlat.scn in Resources */,
@@ -482,6 +489,7 @@
 				8595B0822BD2D6C300820790 /* carouselExample.swift in Sources */,
 				85A97FBC2BCED8E9009CE9F8 /* ContentView.swift in Sources */,
 				85A980232BCEE346009CE9F8 /* View3.swift in Sources */,
+				851B7D4C2BE9A27200493B92 /* Home4.swift in Sources */,
 				85A16DF12BE70B51009196A2 /* FourthScreen.swift in Sources */,
 				85A16DEC2BE426DA009196A2 /* OnlineArt.swift in Sources */,
 				85A9801F2BCEE324009CE9F8 /* View1.swift in Sources */,
