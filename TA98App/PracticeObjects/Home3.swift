@@ -9,7 +9,7 @@ import SwiftUI
 import SceneKit
 
 struct Home3: View {
-    @State var scene: SCNScene? = .init(named: "Deck2.scn")
+    @State var scene: SCNScene? = .init(named: "DarkBlue.scn")
     // MARK: View Properties
     @State var isVerticallook: Bool = false
     @State var currentSelection: String = "1"
