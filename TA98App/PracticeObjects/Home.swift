@@ -9,7 +9,7 @@ import SwiftUI
 import SceneKit
 
 struct Home: View {
-    @State var scene: SCNScene? = .init(named: "Book.scn")
+    @State var scene: SCNScene? = .init(named: "RedPaintFlat.scn")
     // MARK: View Properties
     @State var isVerticallook: Bool = false
     @State var currentSelection: String = "1"
@@ -42,11 +42,11 @@ struct Home: View {
     func BookPropertiesView()-> some View{
         VStack{
             VStack(alignment: .leading, spacing: 12) {
-                Text("The Alphabet Book")
+                Text("Red Painting")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                 
-                Text("Sentrock Studio")
+                Text("Orale")
                     .fontWeight(.semibold)
                     .foregroundColor(.gray)
                 
