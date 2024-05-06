@@ -21,6 +21,7 @@
 		85A16DF52BE834C4009196A2 /* DeckCards1.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85A16DF42BE834C4009196A2 /* DeckCards1.scn */; };
 		85A16DF72BE8430C009196A2 /* Deck2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85A16DF62BE8430C009196A2 /* Deck2.scn */; };
 		85A16DF92BE84389009196A2 /* Home3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16DF82BE84389009196A2 /* Home3.swift */; };
+		85A16DFB2BE94A85009196A2 /* RedPaintFlat.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85A16DFA2BE94A85009196A2 /* RedPaintFlat.scn */; };
 		85A97FBA2BCED8E9009CE9F8 /* TA98AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */; };
 		85A97FBC2BCED8E9009CE9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */; };
 		85A97FBE2BCED8EA009CE9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A97FBD2BCED8EA009CE9F8 /* Assets.xcassets */; };
@@ -96,6 +97,7 @@
 		85A16DF42BE834C4009196A2 /* DeckCards1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DeckCards1.scn; sourceTree = "<group>"; };
 		85A16DF62BE8430C009196A2 /* Deck2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Deck2.scn; sourceTree = "<group>"; };
 		85A16DF82BE84389009196A2 /* Home3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home3.swift; sourceTree = "<group>"; };
+		85A16DFA2BE94A85009196A2 /* RedPaintFlat.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RedPaintFlat.scn; sourceTree = "<group>"; };
 		85A97FB62BCED8E9009CE9F8 /* TA98App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TA98App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A97FB92BCED8E9009CE9F8 /* TA98AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TA98AppApp.swift; sourceTree = "<group>"; };
 		85A97FBB2BCED8E9009CE9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				85A16DFA2BE94A85009196A2 /* RedPaintFlat.scn */,
 				85A16DF62BE8430C009196A2 /* Deck2.scn */,
 				85A16DF42BE834C4009196A2 /* DeckCards1.scn */,
 				856656192BE16113001787E9 /* Book.scn */,
@@ -428,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A16DFB2BE94A85009196A2 /* RedPaintFlat.scn in Resources */,
 				85A16DF72BE8430C009196A2 /* Deck2.scn in Resources */,
 				85A16DF52BE834C4009196A2 /* DeckCards1.scn in Resources */,
 				8566561A2BE16113001787E9 /* Book.scn in Resources */,
