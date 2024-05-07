@@ -13,6 +13,8 @@
 		851B7D4C2BE9A27200493B92 /* Home4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B7D4B2BE9A27200493B92 /* Home4.swift */; };
 		851B7D4E2BE9A62A00493B92 /* Gold.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D4D2BE9A62A00493B92 /* Gold.scn */; };
 		851B7D502BE9A6D800493B92 /* Home5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B7D4F2BE9A6D700493B92 /* Home5.swift */; };
+		851B7D522BE9AA1700493B92 /* DarkGold.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D512BE9AA1700493B92 /* DarkGold.scn */; };
+		851B7D542BE9AA5600493B92 /* Home6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B7D532BE9AA5600493B92 /* Home6.swift */; };
 		8566561A2BE16113001787E9 /* Book.scn in Resources */ = {isa = PBXBuildFile; fileRef = 856656192BE16113001787E9 /* Book.scn */; };
 		8566561C2BE1624C001787E9 /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566561B2BE1624C001787E9 /* CustomSceneView.swift */; };
 		8566561E2BE166C7001787E9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566561D2BE166C7001787E9 /* Home.swift */; };
@@ -95,6 +97,8 @@
 		851B7D4B2BE9A27200493B92 /* Home4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home4.swift; sourceTree = "<group>"; };
 		851B7D4D2BE9A62A00493B92 /* Gold.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Gold.scn; sourceTree = "<group>"; };
 		851B7D4F2BE9A6D700493B92 /* Home5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home5.swift; sourceTree = "<group>"; };
+		851B7D512BE9AA1700493B92 /* DarkGold.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DarkGold.scn; sourceTree = "<group>"; };
+		851B7D532BE9AA5600493B92 /* Home6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home6.swift; sourceTree = "<group>"; };
 		856656192BE16113001787E9 /* Book.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Book.scn; sourceTree = "<group>"; };
 		8566561B2BE1624C001787E9 /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
 		8566561D2BE166C7001787E9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -190,6 +194,7 @@
 				85A16DF82BE84389009196A2 /* Home3.swift */,
 				851B7D4B2BE9A27200493B92 /* Home4.swift */,
 				851B7D4F2BE9A6D700493B92 /* Home5.swift */,
+				851B7D532BE9AA5600493B92 /* Home6.swift */,
 			);
 			path = PracticeObjects;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				851B7D512BE9AA1700493B92 /* DarkGold.scn */,
 				851B7D4D2BE9A62A00493B92 /* Gold.scn */,
 				851B7D492BE9A22300493B92 /* LimeGreen.scn */,
 				851B7D472BE99D3B00493B92 /* DarkBlue.scn */,
@@ -449,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B7D522BE9AA1700493B92 /* DarkGold.scn in Resources */,
 				851B7D4E2BE9A62A00493B92 /* Gold.scn in Resources */,
 				851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */,
 				851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */,
@@ -490,6 +497,7 @@
 				8595B0862BD3158E00820790 /* ParaNosotrasCarousel.swift in Sources */,
 				85A16DEF2BE42DE5009196A2 /* GallaryViewProjecting.swift in Sources */,
 				85A16DF92BE84389009196A2 /* Home3.swift in Sources */,
+				851B7D542BE9AA5600493B92 /* Home6.swift in Sources */,
 				85A16DF32BE83243009196A2 /* Home2.swift in Sources */,
 				8595B0842BD2E27F00820790 /* dropdown.swift in Sources */,
 				8566561E2BE166C7001787E9 /* Home.swift in Sources */,
