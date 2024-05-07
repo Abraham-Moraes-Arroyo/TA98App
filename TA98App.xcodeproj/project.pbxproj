@@ -11,6 +11,8 @@
 		85032B482BEAEE8D00519CE5 /* Home8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032B472BEAEE8D00519CE5 /* Home8.swift */; };
 		85032B4A2BEAF04000519CE5 /* Yellow.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85032B492BEAF04000519CE5 /* Yellow.scn */; };
 		85032B4C2BEAF0A400519CE5 /* Home9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032B4B2BEAF0A400519CE5 /* Home9.swift */; };
+		85032B4E2BEAF2FA00519CE5 /* LighterBlue.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85032B4D2BEAF2FA00519CE5 /* LighterBlue.scn */; };
+		85032B502BEAF32E00519CE5 /* Home10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032B4F2BEAF32E00519CE5 /* Home10.swift */; };
 		851B7D462BE95BD600493B92 /* PinkPaint.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D452BE95BD600493B92 /* PinkPaint.scn */; };
 		851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D472BE99D3B00493B92 /* DarkBlue.scn */; };
 		851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D492BE9A22300493B92 /* LimeGreen.scn */; };
@@ -101,6 +103,8 @@
 		85032B472BEAEE8D00519CE5 /* Home8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home8.swift; sourceTree = "<group>"; };
 		85032B492BEAF04000519CE5 /* Yellow.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Yellow.scn; sourceTree = "<group>"; };
 		85032B4B2BEAF0A400519CE5 /* Home9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home9.swift; sourceTree = "<group>"; };
+		85032B4D2BEAF2FA00519CE5 /* LighterBlue.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LighterBlue.scn; sourceTree = "<group>"; };
+		85032B4F2BEAF32E00519CE5 /* Home10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home10.swift; sourceTree = "<group>"; };
 		851B7D452BE95BD600493B92 /* PinkPaint.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PinkPaint.scn; sourceTree = "<group>"; };
 		851B7D472BE99D3B00493B92 /* DarkBlue.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DarkBlue.scn; sourceTree = "<group>"; };
 		851B7D492BE9A22300493B92 /* LimeGreen.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LimeGreen.scn; sourceTree = "<group>"; };
@@ -210,6 +214,7 @@
 				851B7D572BE9AE4F00493B92 /* Home7.swift */,
 				85032B472BEAEE8D00519CE5 /* Home8.swift */,
 				85032B4B2BEAF0A400519CE5 /* Home9.swift */,
+				85032B4F2BEAF32E00519CE5 /* Home10.swift */,
 			);
 			path = PracticeObjects;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				85032B4D2BEAF2FA00519CE5 /* LighterBlue.scn */,
 				85032B492BEAF04000519CE5 /* Yellow.scn */,
 				85032B452BEAEDEA00519CE5 /* Cyan.scn */,
 				851B7D552BE9ADCA00493B92 /* LightBlue.scn */,
@@ -473,6 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85032B4E2BEAF2FA00519CE5 /* LighterBlue.scn in Resources */,
 				85032B4A2BEAF04000519CE5 /* Yellow.scn in Resources */,
 				85032B462BEAEDEA00519CE5 /* Cyan.scn in Resources */,
 				851B7D562BE9ADCA00493B92 /* LightBlue.scn in Resources */,
@@ -529,6 +536,7 @@
 				85A980232BCEE346009CE9F8 /* View3.swift in Sources */,
 				851B7D4C2BE9A27200493B92 /* Home4.swift in Sources */,
 				85A16DF12BE70B51009196A2 /* FourthScreen.swift in Sources */,
+				85032B502BEAF32E00519CE5 /* Home10.swift in Sources */,
 				85A16DEC2BE426DA009196A2 /* OnlineArt.swift in Sources */,
 				85A9801F2BCEE324009CE9F8 /* View1.swift in Sources */,
 				857B04752BE1B208006AFE46 /* Number1.swift in Sources */,
