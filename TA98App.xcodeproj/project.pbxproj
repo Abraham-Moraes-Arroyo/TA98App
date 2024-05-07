@@ -11,6 +11,7 @@
 		851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D472BE99D3B00493B92 /* DarkBlue.scn */; };
 		851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D492BE9A22300493B92 /* LimeGreen.scn */; };
 		851B7D4C2BE9A27200493B92 /* Home4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B7D4B2BE9A27200493B92 /* Home4.swift */; };
+		851B7D4E2BE9A62A00493B92 /* Gold.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D4D2BE9A62A00493B92 /* Gold.scn */; };
 		8566561A2BE16113001787E9 /* Book.scn in Resources */ = {isa = PBXBuildFile; fileRef = 856656192BE16113001787E9 /* Book.scn */; };
 		8566561C2BE1624C001787E9 /* CustomSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566561B2BE1624C001787E9 /* CustomSceneView.swift */; };
 		8566561E2BE166C7001787E9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566561D2BE166C7001787E9 /* Home.swift */; };
@@ -91,6 +92,7 @@
 		851B7D472BE99D3B00493B92 /* DarkBlue.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DarkBlue.scn; sourceTree = "<group>"; };
 		851B7D492BE9A22300493B92 /* LimeGreen.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LimeGreen.scn; sourceTree = "<group>"; };
 		851B7D4B2BE9A27200493B92 /* Home4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home4.swift; sourceTree = "<group>"; };
+		851B7D4D2BE9A62A00493B92 /* Gold.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Gold.scn; sourceTree = "<group>"; };
 		856656192BE16113001787E9 /* Book.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Book.scn; sourceTree = "<group>"; };
 		8566561B2BE1624C001787E9 /* CustomSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSceneView.swift; sourceTree = "<group>"; };
 		8566561D2BE166C7001787E9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				851B7D4D2BE9A62A00493B92 /* Gold.scn */,
 				851B7D492BE9A22300493B92 /* LimeGreen.scn */,
 				851B7D472BE99D3B00493B92 /* DarkBlue.scn */,
 				851B7D452BE95BD600493B92 /* PinkPaint.scn */,
@@ -443,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B7D4E2BE9A62A00493B92 /* Gold.scn in Resources */,
 				851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */,
 				851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */,
 				851B7D462BE95BD600493B92 /* PinkPaint.scn in Resources */,
