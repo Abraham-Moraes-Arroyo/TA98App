@@ -105,6 +105,283 @@ struct Number1: View {
                                 )
                         }
                         
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home4(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home5(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home6(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home7(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home8(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home9(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home10(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home11(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home12(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home13(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home14(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        VStack{
+                            // MARK: Here is where I am going to make a drid like outline that can be used multiple times
+                            HStack{
+                                Image("Deck2")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                                Text("Bicycle Cards")
+                                NavigationLink(
+                                    destination: Home15(),
+                                    
+                                    label: {
+                                        Image(systemName: "info")
+                                    })
+                               
+                                    
+                            }
+                            .padding()
+                            .overlay(
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                        
+                        
                     }// end of divider with TA98 Logo
                     
                    

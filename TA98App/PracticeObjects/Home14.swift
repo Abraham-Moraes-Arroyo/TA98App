@@ -42,11 +42,11 @@ struct Home14: View {
     func BookPropertiesView()-> some View{
         VStack{
             VStack(alignment: .leading, spacing: 12) {
-                Text("Bicycle Playing Cards")
+                Text("Chi Scrapper Azul")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                 
-                Text("Standard Stock")
+                Text("Marlen Cisneros")
                     .fontWeight(.semibold)
                     .foregroundColor(.gray)
                 
@@ -101,7 +101,7 @@ struct Home14: View {
             HStack{
                 
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("These are playing cards by the Bicycle Playing cards. ")
+                    Text("This photograph is the 14th photograph out of the Chi Scrappers Collection. ")
                         .font(.callout)
                         .fontWeight(.semibold)
                         .foregroundColor(.gray)
