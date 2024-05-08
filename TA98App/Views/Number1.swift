@@ -39,10 +39,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("sentrockBook")
+                                Image("Red")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("The Alphabet Book")
+                                Text("Chi Scrapper Red")
                                 NavigationLink(
                                     destination: Home(),
                                     
@@ -62,10 +62,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck1")
+                                Image("Pink")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Pink ")
                                 NavigationLink(
                                     destination: Home2(),
                                     
@@ -85,10 +85,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("DarkBlue")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Dark Blue")
                                 NavigationLink(
                                     destination: Home3(),
                                     
@@ -108,10 +108,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("LimeGreen")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Lime Green")
                                 NavigationLink(
                                     destination: Home4(),
                                     
@@ -131,10 +131,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("Gold")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Gold")
                                 NavigationLink(
                                     destination: Home5(),
                                     
@@ -154,10 +154,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("DarkGold")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Dark Gold")
                                 NavigationLink(
                                     destination: Home6(),
                                     
@@ -177,10 +177,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("LighterBlue")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Lighter Blue")
                                 NavigationLink(
                                     destination: Home7(),
                                     
@@ -200,10 +200,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("Cyan")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Cyan")
                                 NavigationLink(
                                     destination: Home8(),
                                     
@@ -223,10 +223,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("Yellow")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Yellow")
                                 NavigationLink(
                                     destination: Home9(),
                                     
@@ -246,10 +246,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("LightBlue")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scapper Light Blue")
                                 NavigationLink(
                                     destination: Home10(),
                                     
@@ -269,10 +269,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("HotPink")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Hot Pink")
                                 NavigationLink(
                                     destination: Home11(),
                                     
@@ -292,10 +292,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("Gray")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Gray")
                                 NavigationLink(
                                     destination: Home12(),
                                     
@@ -315,10 +315,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("DarkGreen")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Dark Green")
                                 NavigationLink(
                                     destination: Home13(),
                                     
@@ -338,10 +338,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("Azul")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Azul")
                                 NavigationLink(
                                     destination: Home14(),
                                     
@@ -361,10 +361,10 @@ struct Number1: View {
                         VStack{
                             // MARK: Here is where I am going to make a drid like outline that can be used multiple times
                             HStack{
-                                Image("Deck2")
+                                Image("Orange")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Bicycle Cards")
+                                Text("Chi Scrapper Orange")
                                 NavigationLink(
                                     destination: Home15(),
                                     
