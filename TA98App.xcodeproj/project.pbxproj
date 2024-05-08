@@ -15,6 +15,8 @@
 		85032B502BEAF32E00519CE5 /* Home10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032B4F2BEAF32E00519CE5 /* Home10.swift */; };
 		85032B522BEAF56C00519CE5 /* HotPink.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85032B512BEAF56C00519CE5 /* HotPink.scn */; };
 		85032B542BEAF5BB00519CE5 /* Home11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032B532BEAF5BB00519CE5 /* Home11.swift */; };
+		85032B562BEAF7F300519CE5 /* Gray.scn in Resources */ = {isa = PBXBuildFile; fileRef = 85032B552BEAF7F300519CE5 /* Gray.scn */; };
+		85032B582BEAF85900519CE5 /* Home12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032B572BEAF85900519CE5 /* Home12.swift */; };
 		851B7D462BE95BD600493B92 /* PinkPaint.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D452BE95BD600493B92 /* PinkPaint.scn */; };
 		851B7D482BE99D3B00493B92 /* DarkBlue.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D472BE99D3B00493B92 /* DarkBlue.scn */; };
 		851B7D4A2BE9A22300493B92 /* LimeGreen.scn in Resources */ = {isa = PBXBuildFile; fileRef = 851B7D492BE9A22300493B92 /* LimeGreen.scn */; };
@@ -109,6 +111,8 @@
 		85032B4F2BEAF32E00519CE5 /* Home10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home10.swift; sourceTree = "<group>"; };
 		85032B512BEAF56C00519CE5 /* HotPink.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = HotPink.scn; sourceTree = "<group>"; };
 		85032B532BEAF5BB00519CE5 /* Home11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home11.swift; sourceTree = "<group>"; };
+		85032B552BEAF7F300519CE5 /* Gray.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Gray.scn; sourceTree = "<group>"; };
+		85032B572BEAF85900519CE5 /* Home12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home12.swift; sourceTree = "<group>"; };
 		851B7D452BE95BD600493B92 /* PinkPaint.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PinkPaint.scn; sourceTree = "<group>"; };
 		851B7D472BE99D3B00493B92 /* DarkBlue.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DarkBlue.scn; sourceTree = "<group>"; };
 		851B7D492BE9A22300493B92 /* LimeGreen.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LimeGreen.scn; sourceTree = "<group>"; };
@@ -220,6 +224,7 @@
 				85032B4B2BEAF0A400519CE5 /* Home9.swift */,
 				85032B4F2BEAF32E00519CE5 /* Home10.swift */,
 				85032B532BEAF5BB00519CE5 /* Home11.swift */,
+				85032B572BEAF85900519CE5 /* Home12.swift */,
 			);
 			path = PracticeObjects;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
+				85032B552BEAF7F300519CE5 /* Gray.scn */,
 				85032B512BEAF56C00519CE5 /* HotPink.scn */,
 				85032B4D2BEAF2FA00519CE5 /* LighterBlue.scn */,
 				85032B492BEAF04000519CE5 /* Yellow.scn */,
@@ -485,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85032B562BEAF7F300519CE5 /* Gray.scn in Resources */,
 				85032B522BEAF56C00519CE5 /* HotPink.scn in Resources */,
 				85032B4E2BEAF2FA00519CE5 /* LighterBlue.scn in Resources */,
 				85032B4A2BEAF04000519CE5 /* Yellow.scn in Resources */,
@@ -529,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85032B582BEAF85900519CE5 /* Home12.swift in Sources */,
 				8595B0862BD3158E00820790 /* ParaNosotrasCarousel.swift in Sources */,
 				85A16DEF2BE42DE5009196A2 /* GallaryViewProjecting.swift in Sources */,
 				851B7D582BE9AE5000493B92 /* Home7.swift in Sources */,
