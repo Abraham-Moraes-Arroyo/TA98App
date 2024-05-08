@@ -221,6 +221,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85032B652BEB158500519CE5 /* ChiScrapers */ = {
+			isa = PBXGroup;
+			children = (
+				85032B5D2BEAFFED00519CE5 /* Azul.scn */,
+				85032B612BEB044A00519CE5 /* Orange.scn */,
+				85032B592BEAFB7600519CE5 /* DarkGreen.scn */,
+				85032B552BEAF7F300519CE5 /* Gray.scn */,
+				85032B512BEAF56C00519CE5 /* HotPink.scn */,
+				85032B4D2BEAF2FA00519CE5 /* LighterBlue.scn */,
+				85032B492BEAF04000519CE5 /* Yellow.scn */,
+				85032B452BEAEDEA00519CE5 /* Cyan.scn */,
+				851B7D552BE9ADCA00493B92 /* LightBlue.scn */,
+				851B7D512BE9AA1700493B92 /* DarkGold.scn */,
+				851B7D4D2BE9A62A00493B92 /* Gold.scn */,
+				851B7D492BE9A22300493B92 /* LimeGreen.scn */,
+				851B7D472BE99D3B00493B92 /* DarkBlue.scn */,
+				851B7D452BE95BD600493B92 /* PinkPaint.scn */,
+				85A16DFA2BE94A85009196A2 /* RedPaintFlat.scn */,
+				85A16DF62BE8430C009196A2 /* Deck2.scn */,
+				856656192BE16113001787E9 /* Book.scn */,
+				85A16DF42BE834C4009196A2 /* DeckCards1.scn */,
+			);
+			path = ChiScrapers;
+			sourceTree = "<group>";
+		};
 		856656182BE15BBF001787E9 /* PracticeObjects */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,24 +290,7 @@
 		85A97FAD2BCED8E9009CE9F8 = {
 			isa = PBXGroup;
 			children = (
-				85032B612BEB044A00519CE5 /* Orange.scn */,
-				85032B5D2BEAFFED00519CE5 /* Azul.scn */,
-				85032B592BEAFB7600519CE5 /* DarkGreen.scn */,
-				85032B552BEAF7F300519CE5 /* Gray.scn */,
-				85032B512BEAF56C00519CE5 /* HotPink.scn */,
-				85032B4D2BEAF2FA00519CE5 /* LighterBlue.scn */,
-				85032B492BEAF04000519CE5 /* Yellow.scn */,
-				85032B452BEAEDEA00519CE5 /* Cyan.scn */,
-				851B7D552BE9ADCA00493B92 /* LightBlue.scn */,
-				851B7D512BE9AA1700493B92 /* DarkGold.scn */,
-				851B7D4D2BE9A62A00493B92 /* Gold.scn */,
-				851B7D492BE9A22300493B92 /* LimeGreen.scn */,
-				851B7D472BE99D3B00493B92 /* DarkBlue.scn */,
-				851B7D452BE95BD600493B92 /* PinkPaint.scn */,
-				85A16DFA2BE94A85009196A2 /* RedPaintFlat.scn */,
-				85A16DF62BE8430C009196A2 /* Deck2.scn */,
-				85A16DF42BE834C4009196A2 /* DeckCards1.scn */,
-				856656192BE16113001787E9 /* Book.scn */,
+				85032B652BEB158500519CE5 /* ChiScrapers */,
 				85A97FE42BCEDAE0009CE9F8 /* GoogleService-Info.plist */,
 				85A97FB82BCED8E9009CE9F8 /* TA98App */,
 				85A97FC92BCED8EA009CE9F8 /* TA98AppTests */,
