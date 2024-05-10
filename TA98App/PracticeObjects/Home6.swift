@@ -42,7 +42,7 @@ struct Home6: View {
     func BookPropertiesView()-> some View{
         VStack{
             VStack(alignment: .leading, spacing: 12) {
-                Text("Chi Scrapper Dark Gold")
+                Text("Chi-Scrapers Dark Gold")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                 
