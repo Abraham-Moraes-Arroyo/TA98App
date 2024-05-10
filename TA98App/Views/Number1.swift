@@ -89,7 +89,7 @@ struct Number1: View {
                                 Image("Red")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Red")
+                                Text("Chi-Scrapers Red")
                                 NavigationLink(
                                     destination: Home(),
                                     
@@ -113,7 +113,7 @@ struct Number1: View {
                                 Image("Pink")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Pink ")
+                                Text("Chi-Scrapers Pink ")
                                 NavigationLink(
                                     destination: Home2(),
                                     
@@ -137,7 +137,7 @@ struct Number1: View {
                                 Image("DarkBlue")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Dark Blue")
+                                Text("Chi-Scrapers Dark Blue")
                                 NavigationLink(
                                     destination: Home3(),
                                     
@@ -162,7 +162,7 @@ struct Number1: View {
                                 Image("LimeGreen")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Lime Green")
+                                Text("Chi-Scrapers Lime Green")
                                 NavigationLink(
                                     destination: Home4(),
                                     
@@ -188,7 +188,7 @@ struct Number1: View {
                                 Image("Gold")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Gold")
+                                Text("Chi-Scrapers Gold")
                                 NavigationLink(
                                     destination: Home5(),
                                     
@@ -213,7 +213,7 @@ struct Number1: View {
                                 Image("DarkGold")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Dark Gold")
+                                Text("Chi-Scrapers Dark Gold")
                                 NavigationLink(
                                     destination: Home6(),
                                     
@@ -239,7 +239,7 @@ struct Number1: View {
                                 Image("LighterBlue")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Lighter Blue")
+                                Text("Chi-Scrapers Lighter Blue")
                                 NavigationLink(
                                     destination: Home7(),
                                     
@@ -265,7 +265,7 @@ struct Number1: View {
                                 Image("Cyan")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Cyan")
+                                Text("Chi-Scrapers Cyan")
                                 NavigationLink(
                                     destination: Home8(),
                                     
@@ -289,7 +289,7 @@ struct Number1: View {
                                 Image("Yellow")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Yellow")
+                                Text("Chi-Scrapers Yellow")
                                 NavigationLink(
                                     destination: Home9(),
                                     
@@ -315,7 +315,7 @@ struct Number1: View {
                                 Image("LightBlue")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scapper Light Blue")
+                                Text("Chi-Scapers Light Blue")
                                 NavigationLink(
                                     destination: Home10(),
                                     
@@ -341,7 +341,7 @@ struct Number1: View {
                                 Image("HotPink")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Hot Pink")
+                                Text("Chi-Scrapers Hot Pink")
                                 NavigationLink(
                                     destination: Home11(),
                                     
@@ -367,7 +367,7 @@ struct Number1: View {
                                 Image("Gray")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Gray")
+                                Text("Chi-Scrapers Gray")
                                 NavigationLink(
                                     destination: Home12(),
                                     
@@ -393,7 +393,7 @@ struct Number1: View {
                                 Image("DarkGreen")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Dark Green")
+                                Text("Chi-Scrapers Dark Green")
                                 NavigationLink(
                                     destination: Home13(),
                                     
@@ -419,7 +419,7 @@ struct Number1: View {
                                 Image("Azul")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Azul")
+                                Text("Chi-Scrapers Azul")
                                 NavigationLink(
                                     destination: Home14(),
                                     
@@ -445,7 +445,7 @@ struct Number1: View {
                                 Image("Orange")
                                     .resizable()
                                     .frame(width:60, height: 60)
-                                Text("Chi Scrapper Orange")
+                                Text("Chi-Scrapers Orange")
                                 NavigationLink(
                                     destination: Home15(),
                                     
