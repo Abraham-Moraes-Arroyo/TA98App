@@ -31,6 +31,17 @@ struct Number1: View {
                             .resizable()
                             .frame(width: 400, height: 200)
                         
+                        Text("Summary")
+                            .font(.title)
+                            .padding()
+                            .offset(x:-120)
+                        // here is where you are going to have the text summary along with the social and web page
+                        Text("Chi-Scrapers is an exhibit that gives you a glimpse of our City’s LowriderCulture that’s alive and active during the warm sunny days of summer.")
+                            .font(.callout)
+                            .fontWeight(.semibold)  
+                            .foregroundColor(.gray)
+                            .padding()
+                        
                         Text("Featured Pieces")
                             .font(.title)
                             .padding()
@@ -49,6 +60,7 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                Spacer()
                                
                                     
                             }
@@ -72,7 +84,8 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
-                               
+                                Spacer()
+
                                     
                             }
                             .padding()
@@ -95,6 +108,8 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                Spacer()
+
                                
                                     
                             }
@@ -118,6 +133,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -142,6 +160,8 @@ struct Number1: View {
                                         Image(systemName: "info")
                                     })
                                
+                                Spacer()
+
                                     
                             }
                             .padding()
@@ -164,6 +184,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -187,6 +210,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -210,7 +236,8 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
-                               
+                                Spacer()
+
                                     
                             }
                             .padding()
@@ -233,6 +260,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -256,6 +286,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -279,6 +312,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -302,6 +338,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -325,6 +364,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -348,6 +390,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
@@ -371,6 +416,9 @@ struct Number1: View {
                                     label: {
                                         Image(systemName: "info")
                                     })
+                                
+                                Spacer()
+
                                
                                     
                             }
