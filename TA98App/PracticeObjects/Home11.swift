@@ -101,7 +101,7 @@ struct Home11: View {
             HStack{
                 
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("This photograph is the 11th photograph out of the Chi Scrappers Collection.")
+                    Text("This photograph is the 11th photograph out of the Chi-Scrapers Collection.")
                         .font(.callout)
                         .fontWeight(.semibold)
                         .foregroundColor(.gray)
