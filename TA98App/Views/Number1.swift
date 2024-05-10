@@ -42,6 +42,42 @@ struct Number1: View {
                             .foregroundColor(.gray)
                             .padding()
                         
+                        Text("Instagram & Web Page")
+                            .offset(x:-95)
+                        
+                        Divider()
+
+                        
+                        HStack{
+                            //                        this is the button to lead to the Instagtam
+
+                            Button(action: {
+                                if let url = URL(string: "https://www.instagram.com/marlispictures/") {
+                                    UIApplication.shared.open(url)
+                                }
+                            }) {
+                                Image("insta")
+                                    .resizable()
+                                    .frame(width:60, height: 60)
+                            }
+                            
+                            
+//                            this is the button that will lead to the webpage
+                            Button(action: {
+                                if let url = URL(string: "https://laculturamagazine.com") {
+                                    UIApplication.shared.open(url)
+                                }
+                            }) {
+                                Image("lowrider")
+                                    .resizable()
+                                    .frame(width:100, height: 60)
+                            }
+                            
+                            Spacer()
+                        }
+
+
+                        
                         Text("Featured Pieces")
                             .font(.title)
                             .padding()
@@ -66,7 +102,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -90,7 +126,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -115,7 +151,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -141,7 +177,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -166,7 +202,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -192,7 +228,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -218,7 +254,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -242,7 +278,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -268,7 +304,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -294,7 +330,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -320,7 +356,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -346,7 +382,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -372,7 +408,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -398,7 +434,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
@@ -424,7 +460,7 @@ struct Number1: View {
                             }
                             .padding()
                             .overlay(
-                                    RoundedRectangle(cornerRadius: 16)
+                                    RoundedRectangle(cornerRadius: 1)
                                         .stroke(.white, lineWidth: 4)
                                 )
                         }
